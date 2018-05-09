@@ -1,12 +1,13 @@
 <template>
 	<div style="display:inline-block">
 		<div style="width:600px;text-align:center;">
-			<button v-on:click="prevLine">&lt;</button>
-			<button v-on:click="nextLine">&gt;</button>
+			<button v-on:click="prevLine"><</button>
+			<button v-on:click="nextLine">></button>
 		</div>
 		<div style="width:600px;text-align:center;">
 			<button v-on:click="resetLine">Reset</button>
 		</div>
+	</div>
 	</div>
 </template>
 
