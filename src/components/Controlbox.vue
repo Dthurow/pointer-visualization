@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div style="display:inline-block">
 		<div style="width:600px;text-align:center;">
 			<button v-on:click="prevLine"><</button>
 			<button v-on:click="nextLine">></button>
