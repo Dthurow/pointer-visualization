@@ -5,6 +5,6 @@ var fs = require('fs');
 var serverapp = connect();
  serverapp.use(serveStatic(__dirname), {'index': ['index.html', 'index.htm']})
 
-serverapp.listen(80, function(){
-    console.log('Server running on 80...');
+serverapp.listen(process.env.PORT, function(){
+    console.log('Server running on port now');
 });
