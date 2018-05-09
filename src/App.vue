@@ -1,8 +1,8 @@
 <template>
 <div>
- <codebox :sourceCode="sourceCode" :lineToHighlight="currentCodeLine" ></codebox>
+ <codebox :sourcecode="sourceCode" :linetohighlight="currentCodeLine" ></codebox>
   <memorybox :stack="stack" :heap="heap"></memorybox>
-<controlbox v-on:resetLine="resetLine" v-on:nextLine="nextLine" v-on:prevLine="prevLine"></controlbox>
+<controlbox v-on:resetline="resetLine" v-on:nextline="nextLine" v-on:prevline="prevLine"></controlbox>
 </div>
 </template>
 
