@@ -20,13 +20,13 @@
 	methods:{
 		nextLine : function (){
 			console.log("triggered");
-			this.$emit('nextLine');
+			this.$emit('nextline');
 		},
 		prevLine: function (){
-			this.$emit('prevLine');
+			this.$emit('prevline');
 		},
 		resetLine: function (){
-			this.$emit('resetLine');
+			this.$emit('resetline');
 		}
 
 	}
