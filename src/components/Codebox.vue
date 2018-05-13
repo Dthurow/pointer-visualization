@@ -1,7 +1,7 @@
 <template>
 	<div class="codebox" style="display:inline-block;margin-right: 15px;">
 
-Current line is: {{lineToHighlight}}<br/>
+Current line is: {{linetohighlight}}<br/>
 		<div>
 		<svg width="35" height="650" style="vertical-align:top;" >
 		 <path id="codeArrow" :transform="arrowTransform"
@@ -10,7 +10,7 @@ Current line is: {{lineToHighlight}}<br/>
 		    
 		</svg>
 			<div style="display:inline-block;vertical-align:top;width:600px;">
-		<pre v-highlightjs="sourceCode"><code class="csharp"></code></pre>
+		<pre v-highlightjs="sourcecode"><code class="csharp"></code></pre>
 
 			</div>
 
@@ -21,24 +21,12 @@ Current line is: {{lineToHighlight}}<br/>
 <script>
 	export default {
   name: 'codebox',
-	props: ['lineToHighlight', 'sourceCode'],
+	props: ['linetohighlight', 'sourcecode'],
   data () {
     return {
     }
   },
 	methods:{
-		nextLine : function (){
-			this.$emit('nextLine');
-			
-
-		},
-		prevLine: function (){
-			this.$emit('prevLine');
-		},
-		resetLine: function (){
-			this.$emit('resetLine');
-		}
-
 	},
 	computed: {
 		arrowTransform : function (){

@@ -1,0 +1,48 @@
+{
+  "codePath": [ 17, 36, 37, 38, 39, 40, 19 ],
+  "stackVersions" : [  
+        [ ],
+        [ 
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ],
+        [ 
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ],
+        [ 
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ],
+        [ 
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ],
+        [ 
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ],
+        [ 
+          {"addr": 99, "varName": "input", "value": "address 1"},
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ],
+        [ 
+          {"addr": 99, "varName": "input", "value": "address 1"},
+          {"addr": 100, "varName": "start", "value": "address 1"}
+        ]
+       ],
+      "heapVersions": [ 
+        [  ],
+        [ {"addr": 1, "varName": "", "value": "X = 10"}
+        ],
+        [ {"addr": 1, "varName": "", "value": "X = 5"}
+        ],
+        [ {"addr": 1, "varName": "", "value": "X = 5"}
+        ],
+        [ {"addr": 1, "varName": "", "value": "X = 5"}
+        ],
+        [ {"addr": 1, "varName": "", "value": "X = 5"}
+        ],
+        [ {"addr": 1, "varName": "", "value": "X = 5"}
+        ],
+        [ {"addr": 1, "varName": "", "value": "X = something else"}
+        ]
+       ]
+
+}
+                               
